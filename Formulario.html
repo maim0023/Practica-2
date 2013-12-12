@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body>
+    	
+         <div style="position:absolute; left:250px">
+             <form action="datos.html" method="POST" enctype="multipart/form-data">
+                 <fieldset>
+                 <legend>Laboral</legend>
+                     <label for="txtNombre">Codigo</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">Fecha de ingreso </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtSeguro">Seguro Social</label><br/>
+                    <SELECT name="ocupación">
+						<OPTION VALUE="imss">imss</OPTION>
+                        <OPTION VALUE="issste">issste</OPTION>
+                        <OPTION VALUE="privado">prvado</OPTION>                      
+                        <OPTION VALUE="otro">Otro</OPTION>
+                    </SELECT>
+                     <br/>
+                     <br/>
+                    
+                 </fieldset>
+                   <br/>
+                     <br/>
+                 
+                  <fieldset>
+                 <legend>Personal</legend>
+                     <label for="txtNombre">Nombre</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">Apellido Paterno </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">Apellido Materno </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtSeguro">Sexo</label><br/>
+                     Hombre<INPUT type=radio name="género" value="M"><br>
+					 Mujer: <INPUT type=radio name="género" value="F">
+                     <br/>
+                     <br/>
+                     <label for="file">Sube un archivo:</label><br/>
+                     <input type="file" name="archivo" id="archivo" />                    
+                     <br/>
+                     <br/>
+                      
+                     <label for="txtSeguro">Estado civil</label><br/>
+                    <SELECT name="ocupación">
+						<OPTION VALUE="imss">Soltero</OPTION>
+                        <OPTION VALUE="issste">Casado</OPTION>
+                        <OPTION VALUE="privado">Viudo</OPTION>                      
+                        <OPTION VALUE="otro">Divorciado</OPTION>
+                        <OPTION VALUE="otro">otro</OPTION>
+                    </SELECT>
+                  
+                 </fieldset>
+                  <br/>
+                     <br/>
+                 <fieldset>
+                  
+                 <legend>Nacimiento</legend>
+                     <label for="txtNombre">Fecha</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                     <br/>
+                     <br/>
+                      
+                     <label for="txtSeguro">Pais</label><br/>
+                    <SELECT name="ocupación">
+						<OPTION VALUE="imss">Arabia</OPTION>
+                        <OPTION VALUE="issste">Canada</OPTION>
+                        <OPTION VALUE="privado">Estados unidos</OPTION>                      
+                        <OPTION VALUE="otro">Francia</OPTION>
+                        <OPTION VALUE="otro">India</OPTION>
+                         <OPTION VALUE="otro">Jamaica</OPTION>
+                          <OPTION VALUE="otro">Europa</OPTION>
+                           <OPTION VALUE="otro">Mexico</OPTION>
+                            <OPTION VALUE="otro">guatemala</OPTION>
+                             <OPTION VALUE="otro">chile</OPTION>
+                              <OPTION VALUE="otro">ecuador</OPTION>
+                    </SELECT>
+                      </fieldset>
+                   <br/>
+                     <br/>
+                  <fieldset>
+                 
+                    
+                    
+                     <legend>Contacto</legend>
+                     <label for="txtNombre">Titulo</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">CURP </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtFecha">RFC </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">Telfono </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">Celular </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">domicilio </label><br/>
+                     <input type="text" size="60" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">Colonia </label><br/>
+                     <input type="text" size="60" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">Codigo Postal </label><br/>
+                     <input type="text" size="20" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                      <label for="txtSeguro">Pais</label><br/>
+                    <SELECT name="ocupación">
+						<OPTION VALUE="imss">Arabia</OPTION>
+                        <OPTION VALUE="issste">Canada</OPTION>
+                        <OPTION VALUE="privado">Estados unidos</OPTION>                      
+                        <OPTION VALUE="otro">Francia</OPTION>
+                        <OPTION VALUE="otro">India</OPTION>
+                         <OPTION VALUE="otro">Jamaica</OPTION>
+                          <OPTION VALUE="otro">Europa</OPTION>
+                           <OPTION VALUE="otro">Mexico</OPTION>
+                            <OPTION VALUE="otro">guatemala</OPTION>
+                             <OPTION VALUE="otro">chile</OPTION>
+                              <OPTION VALUE="otro">ecuador</OPTION>
+                    </SELECT>
+                      <br/>
+                     <br/>
+                      <label for="txtFecha">Radio </label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" />
+                     
+                     <br/>
+                     <br/>
+                      <label for="txtFecha">Correo </label><br/>
+                     <input type="text" size="60" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                     <label for="txtSeguro">Observaciones</label><br/>
+                    <input type="text" size="60" maxlength="255" id="txtCorreo" name="correo" />
+                     <br/>
+                     <br/>
+                    
+                 </fieldset>
+                   <br/>
+                     <br/>
+                 
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+       
+        
+    </body>
+</html>
